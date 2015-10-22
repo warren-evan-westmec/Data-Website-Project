@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="head">
-    <meta charset="UTF-8">
-    <title>Osu! Gods</title>
-
-    <link href="styleSheet.css" rel="stylesheet" type="text/css"/>
-
-
-
+<head>
+    <title></title>
 </head>
-<body id="body">
+<body>
+<script src ="java.js"></script>
+<table>
+    <tr>
+        <td>
+            <img id="pic1" onclick="document.getElementById('pic1').src='http://images6.fanpop.com/image/photos/33000000/Bad-Santa-Veigar-league-of-legends-33096078-1215-717.jpg'"
+                    src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg" width="1200px" height="800px">
+            <h1 id="p1">Veigar</h1>
 
-<h1>Top Osu! Players</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p1')">button</button>
 
+        </td>
+        <td>
+            <img id="pic2" onclick="document.getElementById('pic2').src='http://i.ytimg.com/vi/kYzRU0OYvpA/maxresdefault.jpg'"
+                 src="http://i.ytimg.com/vi/3hHY2xHpYY0/maxresdefault.jpg" width="1200px" height="800px">
+            <h1 id="p2">Azir</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p2')">button</button>
 
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<div id="chart_div"></div>
+        </td>
+        <td>
+            <img id="pic3" onclick="document.getElementById('pic3').src='http://cdn.garenanow.com/webupdate/live/lolphweb/news/2015%20June/9/Nightmare%20Tryndamere/nightmare_tryndamere_splash_590.jpg'"
+                 src="http://3.bp.blogspot.com/-siBuR56PEl8/UywG3VuH_GI/AAAAAAAALgI/J-HmdMditIo/s1600/Tryndamere-League-of-Legends-Wallpaper-full-HD-23.png" width="1200px" height="800px">
+            <h1 id="p3">Tryndamere</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p3')">button</button>
+        </td>
 
-<img src="https://pbs.twimg.com/profile_images/505807011842248705/hUNmqiSi.png" width="500px" height="500">
+    </tr>
 
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<div id="chart2_div"></div>
+    <tr>
+        <td><img id="pic4" onclick="document.getElementById('pic4').src='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gangplank_7.jpg'"
+                 src="http://ec0c5a7f741a6f3bff65-dd07187202f57fa404a8f047da2bcff5.r85.cf1.rackcdn.com/images/O6uxSHh2aKgK.878x0.Z-Z96KYq.jpg" width="1200px" height="800px">
+            <h1 id="p4">GangPlank</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p4')">button</button></td>
 
+        <td><img id="pic5" onclick="document.getElementById('pic5').src='http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/large/public/2014/08/28/2013/04/01/6700-zac-secret-weapon-special-skin.jpg'"
+                 src="https://i.ytimg.com/vi/UtqtVGGNjn0/maxresdefault.jpg" width="1200px" height="800px">
+            <h1 id="p5">Zac</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p5')">button</button></td>
 
-<p>Average accuracy for the top 5 players is 99.05% accuracy</p>
+        <td><img id="pic6" onclick="document.getElementById('pic6').src='http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg'"
+                 src="http://static1.eclypsia.com/images/lol/champions/Zed_Splash_0.jpg" width="1200px" height="800px">
+            <h1 id="p6">Zed</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p6')">button</button></td>
 
-<script type="text/javascript" src="scripts.js"></script>
+    </tr>
+
+    <tr>
+        <td><img id="pic7" onclick="document.getElementById('pic7').src='http://1.bp.blogspot.com/-sVm5SPJIMA8/VPjFfpw92vI/AAAAAAAASDE/biTNtnq8Rqs/s1600/Bard_Splash_1.jpg'"
+                 src="http://36646d87786feafc0611-0338bbbce19fc98919c6293def4c5554.r0.cf1.rackcdn.com/images/81xMnOYlihyS.878x0.Z-Z96KYq.jpg" width="1200px" height="800px">
+            <h1 id="p7">Bard</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p7')">button</button></td>
+
+        <td><img id="pic8" onclick="document.getElementById('pic8').src='http://www.leagueoflegendsskins.com/images/champions/splash/Chogath_4.jpg'"
+                 src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg" width="1200px" height="800px">
+            <h1 id="p8">Cho'Gath</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p8')">button</button></td>
+
+        <td><img id="pic9" onclick="document.getElementById('pic9').src='http://vignette2.wikia.nocookie.net/leagueoflegends/images/3/3c/Nautilus_AstroSkin.jpg/revision/latest/zoom-crop/width/613/height/460?cb=20120828043436'"
+                 src="http://i.ytimg.com/vi/7wu_eu2eWE0/maxresdefault.jpg" width="1200px" height="800px">
+            <h1 id="p9">Nautilus</h1>
+            <button style="width:200px;height:80px;" type="submit" onclick="changeDescription('p9')">button</button></td>
+    </tr>
+
+</table>
 </body>
 </html>
